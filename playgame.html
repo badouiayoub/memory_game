@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Play Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Memory game.css" />
+    <script src="prototype.js"></script>
+    <script src="jQuery3.7.1.js"></script>
+  </head>
+  <body>
+    <div class="music-control">
+      <input type="checkbox" checked id="musicchange" class="music-checkbox" />
+      <div class="musiccontent">
+        <label for="musicchange" class="music-panel music-on">
+          <div class="sound-waves">
+            <div class="sound-bar"></div>
+            <div class="sound-bar"></div>
+            <div class="sound-bar"></div>
+          </div>
+          <p class="status-text">Music On</p>
+        </label>
+        <label for="musicchange" class="music-panel music-off">
+          <p class="status-text">Music Off</p>
+        </label>
+      </div>
+    </div>
+    <div id="buttoncontainer"></div>
+    <div id="timer">00:00</div>
+    <div class="message-container" id="customMessage"></div>
+
+    <script src="Memory game.js"></script>
+  </body>
+</html>

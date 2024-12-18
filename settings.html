@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Settings</title>
+    <link rel="stylesheet" href="Memory game.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Memory game.js"></script>
+    <script src="prototype.js"></script>
+    <script src="jQuery3.7.1.js"></script>
+  </head>
+  <body>
+    <div class="firstpage">
+      <h1 class="title">Memory King</h1>
+      <h2>Game Settings</h2>
+      <div class="setting">
+        <label>Difficulty:</label>
+        <select id="difficultySelect">
+          <option value="Easy" selected>Easy</option>
+          <option value="Medium">Medium</option>
+          <option value="Mard">Hard</option>
+        </select>
+      </div>
+      <div class="theme">
+        <label>Theme:</label>
+        <select id="themeselect">
+          <option value="Colors" select>Colors</option>
+          <option value="Icons">Numbers</option>
+          <option value="Numbers">Icons</option>
+        </select>
+      </div>
+
+      <button id="startgame" class="startbutton">
+        <img src="play-button.png" width="10%" />Start Game
+      </button>
+      <button id="Hidesettings" class="settingsbutton">Hide settings</button>
+      <p class="caption">Choose your challenge and test your memory!</p>
+    </div>
+  </body>
+</html>
