@@ -445,7 +445,7 @@ function addButton() {
                       if (checkwin() == true) {
                         showMessage("You win!");
                         setTimeout(function () {
-                          window.location.href = "Memory game.html";
+                          window.location.href = "index.html";
                         }, 3000);
                       }
                     }
@@ -459,7 +459,7 @@ function addButton() {
                       if (checkwin() == true) {
                         showMessage("You win!");
                         setTimeout(function () {
-                          window.location.href = "Memory game.html";
+                          window.location.href = "index.html";
                         }, 3000);
                       }
                     }
@@ -476,7 +476,7 @@ function addButton() {
                       if (checkwin() == true) {
                         showMessage("You win!");
                         setTimeout(function () {
-                          window.location.href = "Memory game.html";
+                          window.location.href = "index.html";
                         }, 3000);
                       }
                     }
@@ -569,7 +569,7 @@ function setTimer() {
       showMessage("You win!");
       clearInterval(intervalId);
       setTimeout(function () {
-       window.location.href = "index.html";
+        window.location.href = "index.html";
       }, 3000);
     }
   }, 1000);
